@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+	margin:0;
+	padding:0;
+}
+.estacion{
+	width:300px;
+	border:7px dotted #F0A8D0;
+	padding:20px;
+	margin:40px;
+
+}
+.imagen_estacion{
+	width:100%;
+	height:250px;
+}
+.contenedor_estaciones{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+	h2{
+		font-size:75px;
+		color:#FF204E;
+		text-align:center;
+	}
+.estacion h3{
+	font-family: "Lobster", sans-serif;
+	font-size:25px;
+	margin-top:10px;
+	margin-bottom:20px;
+	color:#A91079;
+}
+.estacion p{
+    font-family: "Abril Fatface", serif;
+	color:#E15FED;
+}
+.estacion:nth-child(1) .imagen_estacion{
+	background-image:url("primavera.avif");
+background-size:cover;
+}
+.estacion:nth-child(2) .imagen_estacion{
+	background-image:url("verano.avif");
+	background-position:50%;
+}
+.estacion:nth-child(3) .imagen_estacion{
+	background-image:url("otoño.avif");
+	background-size:cover;
+}
+.estacion:nth-child(4) .imagen_estacion{
+	background-image:url("invierno.jpg");
+	background-size:cover;
+
+}
+.Redes img, .Usuario img{
+	width:200px;
+}
+
+.contenedor_contacto, .Redes{
+	display:flex;
+}
+.Redes {
+	align-items:center;
+}
+.Usuario{
+	padding:30px;
+	text-align:center;
+}
+.Usuario p{
+	font-family: "Archivo Black", sans-serif;
+}
+.Usuario h3{
+	margin:30px 0;
+	color: #E178C5;
+}
